@@ -4,7 +4,7 @@ import { MessageCircle } from 'lucide-react';
 
 const WhatsAppButton = () => {
   const handleWhatsAppClick = () => {
-    const phoneNumber = '5491145678900'; // Replace with actual WhatsApp number
+    const phoneNumber = '5493416912227'; // Replace with actual WhatsApp number
     const message = encodeURIComponent('¡Hola! Me interesa conocer más sobre las propiedades disponibles en InnovaHomes.');
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${message}`;
     window.open(whatsappUrl, '_blank');

@@ -60,7 +60,7 @@ const Hero = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.6 }}
           >
-            Inmobiliaria tecnológica con propiedades premium y experiencias únicas
+            Inmobiliaria online con propiedades premium y experiencias únicas
           </motion.p>
 
           <motion.div 
@@ -69,15 +69,17 @@ const Hero = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.8 }}
           >
-            <motion.button
+            <motion.a
+              href="https://inmobiliaria-tau.vercel.app/#propiedades"
               className="group bg-gradient-to-r from-[#00CFFF] to-[#7B61FF] text-white px-8 py-4 rounded-full font-semibold text-lg flex items-center space-x-2 hover:shadow-2xl hover:shadow-[#00CFFF]/30 transition-all duration-300"
               whileHover={{ scale: 1.05, y: -2 }}
               whileTap={{ scale: 0.95 }}
+              style={{ display: 'flex', alignItems: 'center' }}
             >
               <Play className="w-5 h-5" />
               <span>Ver Propiedades</span>
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" />
-            </motion.button>
+            </motion.a>
 
             <motion.button
               className="group bg-white/10 backdrop-blur-lg border border-white/20 text-white px-8 py-4 rounded-full font-semibold text-lg flex items-center space-x-2 hover:bg-white/20 transition-all duration-300"

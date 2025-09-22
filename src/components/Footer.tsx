@@ -95,11 +95,11 @@ const Footer = () => {
               >
                 <div className="flex items-center space-x-3 text-white/70">
                   <Phone className="w-5 h-5 text-[#00CFFF]" />
-                  <span>+54 11 4567-8900</span>
+                  <span>+5493416912227</span>
                 </div>
                 <div className="flex items-center space-x-3 text-white/70">
                   <Mail className="w-5 h-5 text-[#00CFFF]" />
-                  <span>info@innovahomes.com</span>
+                  <span>contacto@techphite.com</span>
                 </div>
                 <div className="flex items-center space-x-3 text-white/70">
                   <MapPin className="w-5 h-5 text-[#00CFFF]" />

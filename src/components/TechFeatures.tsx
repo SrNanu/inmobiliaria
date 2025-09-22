@@ -12,7 +12,7 @@ const TechFeatures = () => {
     },
     {
       icon: Brain,
-      title: 'Inteligencia Artificial',
+      title: 'Recomendacion Inteligente',
       description: 'Nuestro algoritmo aprende tus preferencias y te recomienda propiedades perfectas para tu estilo de vida.',
       color: 'from-[#7B61FF] to-[#5B47CC]',
     },
